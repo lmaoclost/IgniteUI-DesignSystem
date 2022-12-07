@@ -18,7 +18,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {
-      config.base = '/projetos-ignite/'
+      config.base = '/IgniteUI-DesignSystem/'
     }
 
     return config
